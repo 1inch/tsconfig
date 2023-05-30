@@ -1,4 +1,4 @@
-# ts-config
+# tsconfig
 Common tsconfig for all node.js repositories
 
 ## Install
