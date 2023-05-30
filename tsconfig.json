@@ -14,18 +14,9 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./",
     "incremental": true,
     "paths": {},
     "skipLibCheck": true,
     "allowJs": true,
-    "typeRoots": [
-      "./src/types-overrides",
-      "./node_modules/@types"
-    ]
-  },
-  "include": [
-    "src"
-  ]
+  }
 }

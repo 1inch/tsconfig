@@ -10,7 +10,16 @@ $ yarn add -D https://github.com/1inch/tsconfig.git#v1.0.0
 And then setup `tsconfig.json`:
 ```json
 {
-  "extends": ["@1inch/tsconfig"]
+  "extends": "@1inch/tsconfig",
+  "include": ["src"],
+  "compilerOptions": {
+    "typeRoots": [
+      "./src/types-overrides",
+      "./node_modules/@types"
+    ],
+    "outDir": "./dist",
+    "baseUrl": "./"
+  }
 }
 ```
 
