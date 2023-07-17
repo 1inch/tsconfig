@@ -1,6 +1,6 @@
 {
   "name": "@1inch/tsconfig",
-  "version": "v1.0.1",
+  "version": "1.0.1",
   "license": "UNLICENSED",
   "scripts": {
     "release": "node ./release.mjs"
