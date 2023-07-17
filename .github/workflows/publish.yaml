@@ -28,11 +28,12 @@ jobs:
           cat <<< $(jq -r ".version=\"$PACKAGE_VERSION\"" package.json) > package.json
           cat <<< $(jq -r ".name=\"@${{ github.repository }}\"" package.json) > package.json
           cat package.json
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
 
-      - name: Build
-        run: yarn build
+      # - name: Install dependencies
+      #   run: yarn install --frozen-lockfile
+
+      # - name: Build
+      #   run: yarn build
 
       - name: Publish
         run: yarn publish
