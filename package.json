@@ -2,6 +2,11 @@
   "name": "@1inch/tsconfig",
   "version": "1.0.7",
   "license": "UNLICENSED",
+  "files": [
+    "README.md",
+    "package.json",
+    "tsconfig.json"
+  ],
   "scripts": {
     "release": "node ./release.mjs"
   },
