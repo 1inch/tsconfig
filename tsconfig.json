@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
-    "lib": [
-      "ES2022"
-    ],
+    "lib": ["ES2022"],
     "module": "commonjs",
     "strict": true,
     "target": "ES2022",
     "resolveJsonModule": true,
     "declaration": true,
-    "removeComments": true,
+    "removeComments": false,
     "esModuleInterop": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -17,6 +15,6 @@
     "incremental": true,
     "paths": {},
     "skipLibCheck": true,
-    "allowJs": true,
+    "allowJs": true
   }
 }
