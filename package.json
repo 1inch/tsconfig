@@ -1,12 +1,16 @@
 {
   "name": "@1inch/tsconfig",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "license": "UNLICENSED",
   "files": [
     "README.md",
     "package.json",
     "tsconfig.json"
   ],
+  "repository": {
+      "type": "git",
+      "url": "ssh://git@github.com:1inch/tsconfig.git"
+  },
   "scripts": {
     "release": "node ./release.mjs"
   },
